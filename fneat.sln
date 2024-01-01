@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4C25B81C-966
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "tictactoe", "src\tictactoe\tictactoe.fsproj", "{1DC390D4-1F05-44F8-8CB0-DC131554EDBB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1FA76F6A-8777-4CE4-8423-F27958E73597}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "tictactoe_cli", "tests\tictactoe_cli\tictactoe_cli.fsproj", "{99DAA5CE-92C2-4BDC-A9D5-B0E7A83AD620}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,13 @@ Global
 		{1DC390D4-1F05-44F8-8CB0-DC131554EDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DC390D4-1F05-44F8-8CB0-DC131554EDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DC390D4-1F05-44F8-8CB0-DC131554EDBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99DAA5CE-92C2-4BDC-A9D5-B0E7A83AD620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DAA5CE-92C2-4BDC-A9D5-B0E7A83AD620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DAA5CE-92C2-4BDC-A9D5-B0E7A83AD620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DAA5CE-92C2-4BDC-A9D5-B0E7A83AD620}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1DC390D4-1F05-44F8-8CB0-DC131554EDBB} = {4C25B81C-9662-452D-8142-CD4D7303C587}
+		{99DAA5CE-92C2-4BDC-A9D5-B0E7A83AD620} = {1FA76F6A-8777-4CE4-8423-F27958E73597}
 	EndGlobalSection
 EndGlobal
