@@ -5,11 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         
-        {
-            "name": "F#: tictactoe_cli Debug",
-            "type": "dotnet",
-            "request": "launch",
-            "projectPath": "${workspaceFolder}/tests/tictactoe_cli.fsproj"
-        }
+    
     ]
 }
